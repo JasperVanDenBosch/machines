@@ -41,7 +41,9 @@ RUN apt-get install -y \
     python-pyglet \
     python-patsy \
     python-statsmodels \
-    python-statsmodels-lib
+    python-statsmodels-lib \
+    ipython
+RUN pip install mne
 
 
 
